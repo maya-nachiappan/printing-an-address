@@ -12,16 +12,17 @@ int main()
 {
     string street, city, state;
     int zip;
-    cout << "enter your street: " << endl;
-    cin >> street;
-    cout << "enter your city: " << endl;
+    cout << "Enter your street: " << endl;
+    getline (cin, street);
+    cout << "Enter your city: " << endl;
     cin >> city;
-    cout <<"enter your state: " << endl;
+    cout <<"Enter your state: " << endl;
     cin >> state;
-    cout <<"enter your zip code: " <<endl;
+    cout <<"Enter your zip code: " <<endl;
     cin >> zip;
+    cout << "Your address is: " << endl;
     cout << street << endl;
-    cout << city << "," << state << "," << zip;
+    cout << city << ", " << state << ", " << zip << endl;
     return 0;
     
 }
