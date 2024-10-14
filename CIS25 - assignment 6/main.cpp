@@ -13,16 +13,16 @@ int main()
     string street, city, state;
     int zip;
     cout << "Enter your street: " << endl;
-    getline (cin, street);
+    getline (cin, street); // getline gets entire street address
     cout << "Enter your city: " << endl;
-    cin >> city;
+    cin >> city; // gets entire city
     cout <<"Enter your state: " << endl;
-    cin >> state;
+    cin >> state; // gets state
     cout <<"Enter your zip code: " <<endl;
-    cin >> zip;
+    cin >> zip; // gets zip code
     cout << "Your address is: " << endl;
     cout << street << endl;
-    cout << city << ", " << state << ", " << zip << endl;
+    cout << city << ", " << state << ", " << zip << endl; // prints full address
     return 0;
     
 }
